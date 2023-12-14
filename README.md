@@ -1,20 +1,17 @@
-# Project A-11
+# Charlottesville Restaurant Finder - Hoo's Hungry
 
-__Names:__ Yul Goodman (dmg2hh), Jessica Oraegbu (mfg9rv), Hayley Davis (pcs7gm), Kevin Zhao (twq8db), Aaron Ko (wwr7nu)
+Discover new restaurants around Charlottesville, VA with Hoo's Hungry.
 
-To Sherriff: Please note that we have purposedly left it so that your user may write multiple comments and add multiple ratings per restaurant, so that you get fuller  functionality (see how ratings average out, can submit multiple comments to test out approval/rejection feature on a single restaurant, etc.). 
+Semester-long Group Project for Advanced Software Development; created with Python, Javascript, HTML, and CSS, with SQLite3 for the database and Google Maps API.
 
-/***************************************************************************************
-*  REFERENCES
-*  Author: ChatGPT
-*  Software License: Open AI License
-*
-*  Portions of this project were generated with the use of ChatGPT and then tweaked to various degrees to suit the project's specific needs.
-*  This includes JavaScript/Python functions and/or html formats in:
-*  add_rating.html
-*  average_rating.html
-*  favorites.html
-*  map.html
-*  restaurant_list.html
-*  views.py
-***************************************************************************************/
+I was the assigned the role of Requirements Manager, and gathered information from potential users about what they would like to see in an application that would help them find restuarants around the UVA campus and the surrounding Charlottesville area. Many of these features are implemented into this project.
+
+Furthermore, I implemented the following functionalities into the project:
+
+*Generating unique, detailed pages (with address and interactable mini-map) for each restaurant.
+*Appending restaurant into database the first time one user searches for it, optomizing speed for further searches.
+*Creating pinpoints and info windows on each restaurant according to its coordinantes on Google Maps.
+*Automatic filtering based on category buttons selected.
+*Ability for common users to read, write, and see other users' reviews.
+*Ability for admin users to approve, reject (with an admin's note), and delete reviews.
+*Viewable list of all restaurants currently in the database for admin convience.
