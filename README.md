@@ -13,6 +13,7 @@ Furthermore, I implemented the following functionalities into the project:
 - Creating pinpoints and info windows on each restaurant according to its coordinates on Google Maps.
 - Automatic filtering based on category buttons selected.
 - Ability for common users to read, write, and see other users' reviews.
+- Ability for common users to give 1-5 star ratings and see average ratings of each restaurant. 
 - Ability for admin users to approve, reject (with an admin's note), and delete reviews.
 - Viewable list of all restaurants currently in the database for admin convenience.
 
